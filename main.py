@@ -1,6 +1,6 @@
-def main():
-    print("Hello from env-streamlit!")
+import streamlit as st
 
-
-if __name__ == "__main__":
-    main()
+st.title("Hello")
+st.subheader("made with streamlit")
+st.text("welcome")
+st.write("choose you fav chai")
